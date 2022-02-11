@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "permissions",
+  "info": {
+    "singularName": "permissionn",
+    "pluralName": "permissions",
+    "displayName": "Permission",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "type": {
+      "type": "string"
+    },
+    "controller": {
+      "type": "string"
+    },
+    "action": {
+      "type": "string"
+    },
+    "enabled": {
+      "type": "boolean"
+    },
+    "policy": {
+      "type": "string"
+    }
+  }
+}
